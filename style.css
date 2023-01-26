@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+body{
+    font-family: 'roboto',sans-serif;
+}
+
+p{
+    line-height: 28px;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding:25px 20px;
+    overflow: hidden;
+}
+
+
+#slider-section{
+    background:url(images/bindu-basic.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+}
+
+.overlay{
+    background-color: rgba(31, 10, 71, 0.3);
+}
+.logo{
+    width:20%;
+    float:left;
+}
+.menu{
+    float:right;
+    margin-top:40px;
+    text-transform: uppercase;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float:left;
+   /* display: inline-block;*/
+    padding:0 20px;
+    font-size:15px;
+    margin-bottom: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:rgb(102, 14, 14);
+    font-size:20px;
+}
+.menu ul li a:hover{
+   
+    color:#87d37c;
+}
+  
+.slider-content{
+    padding:220px 0;
+    text-align: center;
+    color: rgb(102, 14, 14);
+
+}
+.slider-content h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.slider-content h1{
+    font-size: 60px;
+    max-width:500px;
+    margin:0 auto;
+    padding:20px 30px;
+    margin-bottom: 15px;
+}
+
+.slider-content h1 span{
+    color:#87d37c;   
+}
+
+.slider-content h3{
+    font-size: 25px;
+}
+
+
+#about-us{
+    color:#8d8c8c;
+    padding:50px 0;
+}
+.about-top{
+    text-align: center;
+    
+}
+.about-top h1{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.about-top p{
+    max-width:700px;
+    margin:0 auto;
+    font-size:14px;
+
+}
+.about-content{
+    text-align: center;
+    margin-top:50px;   
+}
+
+.about{
+    width:25%; 
+    float:left;
+    padding:10px;
+}
+
+.about i{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.about h2{
+    margin-bottom: 8px;
+}
+.about p{
+    font-size: 13px;
+    padding:0 7px;
+}
+
+.about:hover i,
+.about:hover h2{
+    color:#87d37c;
+}
+
+#services{
+    background: #f6f9f9;
+    padding: 60px 0;
+    margin-bottom: 50px;
+    color:#8d8c8c;
+    
+}
+.services-top{
+    text-align: center;
+}
+
+.services-top h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.services-top p{
+    max-width:700px;
+    margin:0 auto;
+    padding:20px;
+}
+.services-content{}
+
+.image{
+    width:25%;
+    float:left;
+    padding:10px;
+}
+
+.image img{
+    width: 100%;
+}
+
+#contact-us{
+    color:#8d8c8c;
+    padding-bottom:50px;
+   
+
+}
+.contact-top{
+     text-align: center;
+}
+.contact-top h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.contact-top p{
+    max-width:650px;
+    margin:0 auto;
+    padding:15px 0;
+    margin-bottom:20px;
+}
+.contact-content{
+    text-align: center;
+    max-width:1000px;
+    margin:0 auto;
+           
+}
+
+.ih2h3{
+   /* text-align: center;*/
+    width:33.333333%;
+    float:left;
+  
+}
+.ih2h3 i{
+    font-size:120px;
+    padding-bottom:10px;
+}
+.ih2h3 h2{
+    text-transform: uppercase;
+}
+.ih2h3 h3{
+    padding:10px 0px;
+    font-size: 15px;
+    margin-bottom: 60px;
+
+} 
+.ih2h3:hover{
+        color:#87d37c;
+    }
+    .contact-form{
+        clear: both;   
+    }
+    .form{
+        width:45%;
+        float:left;
+       /* clear: both;*/
+    }
+    .form input{
+        width:100%;
+        padding:8px 20px;
+        margin-bottom: 15px;
+    }
+
+    .message{
+        width:50%;
+        float:right;
+    }
+    .message textarea{
+        width:100%;
+        padding:28px;
+    }
+
+    .message input{
+        font-size: 20px;
+        margin-top:15px;
+        text-transform: uppercase;
+    }
+
+    .message input:hover{
+        background:#87d37c;
+        color:#fff;
+        padding:5px;
+        border:none;
+        /*margin-top:10px;*/
+    }
+    #social-icon{
+        background: #000; 
+        padding: 0px;  
+    }
+    .icon{
+        text-align: center;   
+    }
+
+    .icon i{
+        color:#fff;
+        font-size: 20px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        margin: 0px 3px;   
+    }
+
+    .fa-facebook{
+        background-color:#3c599b;
+        
+    }
+    .fa-google{
+        background:#cd3c2a ;
+    }
+
+    .fa-linkedin{
+        background:#007bb6 ;
+    }
+
+    .fa-twitter{
+        background: #5ea9dd;
+    }
+
+    .fa-skype{
+        background: #00aff0;
+    }
+    
+    .fa-dribbble{
+        background: #03a651;
+    }
+
+    
+

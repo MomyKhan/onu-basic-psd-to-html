@@ -1,0 +1,50 @@
+@media screen and (max-width:768px){
+
+    .about{
+        width:50%;
+    }
+
+    .image{
+        width:50%;
+    }
+
+    .ih2h3{
+
+        width:50%;
+    }
+  
+}
+
+
+@media screen and (max-width:480px){
+    .about{
+        width:100%;
+    }
+
+    .image{
+        width:100%;
+    }
+
+
+    .ih2h3{
+        width:100%;
+    }
+
+    .form{
+        width:100%;
+    }
+
+    .message{
+        width:100%;
+    }  
+
+}
+
+
+@media screen and (max-width:320px){
+   .icon i{
+        
+    } 
+
+
+}
